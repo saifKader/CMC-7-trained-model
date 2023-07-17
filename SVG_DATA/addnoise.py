@@ -49,7 +49,7 @@ def noisy(noise_typ, image):
 
 
 # Define the path to your classes
-classes_path = "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/data/train"  # replace with the correct path
+classes_path = "/Users/abdelkaderseifeddine/PycharmProjects/CMC-7/data/train"  # replace with the correct path
 
 # Iterate over each class folder
 for class_folder in os.listdir(classes_path):
@@ -70,12 +70,7 @@ for class_folder in os.listdir(classes_path):
                 # Apply noise
                 img_noisy = noisy('s&p', img)  # change 's&p' to the desired noise type
 
-                # Create a new filename for the noisy image
-                base_filename, file_extension = os.path.splitext(image_name)
-                new_filename = f"{base_filename}_noisy{file_extension}"
-                new_image_path = os.path.join(class_path, new_filename)
-
-                # Save the noisy image
-                cv2.imwrite(new_image_path, img_noisy)
+                # Save the noisy image, overwrite the original
+                cv2.imwrite(image_path, img_noisy)
 
 print("Noise added to all images.")
