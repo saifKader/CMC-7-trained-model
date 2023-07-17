@@ -5,24 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33523c6-b68f-47ad-88b0-085b9dc0ae80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data/train/class_0/class_0_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_1/class_1_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_2/class_2_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_3/class_3_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_4/class_4_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_5/class_5_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_6/class_6_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_7/class_7_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_8/class_8_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_image_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CMC-7-trained-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CMC-7-trained-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVG_DATA/addnoisedots.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVG_DATA/files might need later/addnoisecopy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_0/class_0_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_0/class_0_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_1/class_1_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_1/class_1_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_2/class_2_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_2/class_2_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_3/class_3_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_3/class_3_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_3/class_3_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_4/class_4_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_4/class_4_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_5/class_5_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_5/class_5_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_6/class_6_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_6/class_6_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_7/class_7_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_7/class_7_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_8/class_8_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_8/class_8_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_9/class_9_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_a/class_a_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_b/class_b_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_c/class_c_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_d/class_d_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_noise_image_1_noisy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_noise_image_1_noisy_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_bg_noise_image_1_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/train/class_e/class_e_image_1_salt.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SVG_DATA/SVG-To-PNG.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVG_DATA/SVG-To-PNG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/addnoise.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVG_DATA/addnoise.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +91,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model",
+    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA/files might need later",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +100,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SVG_DATA/files might need later" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/train/class_a" />
       <recent name="$PROJECT_DIR$/data/train/class_6" />
@@ -70,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1689633329559</updated>
-      <workItem from="1689633330662" duration="644000" />
+      <workItem from="1689633330662" duration="1444000" />
     </task>
     <servers />
   </component>
