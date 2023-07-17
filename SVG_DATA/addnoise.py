@@ -49,7 +49,7 @@ def noisy(noise_typ, image):
 
 
 # Define the path to your classes
-classes_path = "/Users/abdelkaderseifeddine/PycharmProjects/CMC-7/data/train"  # replace with the correct path
+classes_path = "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/data/train"  # replace with the correct path
 
 # Iterate over each class folder
 for class_folder in os.listdir(classes_path):
