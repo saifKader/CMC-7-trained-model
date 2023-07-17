@@ -36,8 +36,14 @@ def crop_image(svg_string, output_file):
     # Crop image
     cropped_image = image.crop((min_x, min_y, max_x, max_y))
 
-    # Save the cropped image
-    cropped_image.save(output_file)
+    # Create a white background image
+    background = Image.new('RGBA', cropped_image.size, (255, 255, 255))
+
+    # Paste cropped image onto the white background
+    background.paste(cropped_image, (0, 0), cropped_image)
+
+    # Save the result
+    background.save(output_file)
 
 # Load all SVG files in the current directory
 svg_files = [f for f in os.listdir('.') if f.endswith('.svg')]
