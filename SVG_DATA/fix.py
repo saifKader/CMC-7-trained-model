@@ -1,53 +1,53 @@
-import tensorflow as tf
-from PIL import Image, ImageOps
 import os
-import numpy as np
+from PIL import Image, ImageEnhance
 
+# Path to the directory with the images
+train_path = "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/data/train"
 
-def load_and_process_image(image_path, target_size):
-    # Load the image
-    image = tf.keras.preprocessing.image.load_img(image_path)
+# New size of images
+image_size = (64, 64)
 
-    # Make the image square by padding the smaller dimension
-    width, height = image.size
-    if width != height:
-        max_dim = max(width, height)
-        new_image = Image.new('RGB', (max_dim, max_dim), (0, 0, 0))
-        upper_left = ((max_dim - width) // 2, (max_dim - height) // 2)
-        new_image.paste(image, upper_left)
-        image = new_image
+# Traverse through each directory
+for class_folder in os.listdir(train_path):
+    class_path = os.path.join(train_path, class_folder)
 
-    # Now resize the image to the target size
-    image = image.resize(target_size)
+    # Check if path is a directory
+    if os.path.isdir(class_path):
+        for img_name in os.listdir(class_path):
 
-    # Convert the PIL Image to a numpy array
-    image = tf.keras.preprocessing.image.img_to_array(image)
+            # Check if file is an image (jpg or png)
+            if img_name.endswith('.jpg') or img_name.endswith('.png'):
+                img_path = os.path.join(class_path, img_name)
 
-    # Invert the colors if the image is grayscale (this is optional and may depend on your specific images)
-    if image.shape[2] == 1:
-        image = 1 - image
+                # Load the image
+                img = Image.open(img_path)
 
-    return image
+                # If image is not in RGBA mode, convert it
+                if img.mode != 'RGBA':
+                    img = img.convert('RGBA')
 
+                # Calculate the aspect ratio
+                aspect = img.size[0] / img.size[1]
 
+                # Resize while keeping the aspect ratio
+                if aspect > 1:  # Width is greater than height
+                    new_width = image_size[0]
+                    new_height = int(image_size[0] / aspect)
+                else:  # Height is greater than width
+                    new_height = image_size[1]
+                    new_width = int(image_size[1] * aspect)
 
-def load_images_from_folder(folder_path, image_size=(28, 28)):
-    data = []
-    labels = []
-    class_folders = os.listdir(folder_path)
-    for class_folder in class_folders:
-        class_folder_path = os.path.join(folder_path, class_folder)
-        if os.path.isdir(class_folder_path):
-            for image_name in os.listdir(class_folder_path):
-                image_path = os.path.join(class_folder_path, image_name)
-                image = load_and_process_image(image_path, image_size)
+                img = img.resize((new_width, new_height))
 
-                # Normalize the image
-                image = image / 255.0
+                # Create a new transparent image
+                new_img = Image.new("RGBA", image_size, (0, 0, 0, 0))
+                new_img.paste(img, ((image_size[0] - new_width) // 2, (image_size[1] - new_height) // 2))
 
-                data.append(image)
-                labels.append(class_folder)
-    return np.array(data), np.array(labels)
+                # Increase sharpness
+                enhancer = ImageEnhance.Sharpness(new_img)
+                new_img = enhancer.enhance(2.0)
 
+                # Save resized and enhanced image (overwrite original image)
+                new_img.save(img_path)
 
-data, labels = load_images_from_folder("/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/data/train")
+print("All images resized and enhanced.")

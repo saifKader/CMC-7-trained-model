@@ -1,16 +1,12 @@
-# This is a sample Python script.
+from src.data_preprocessing.preprocess import preprocess_data
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+train_dir = "data/train"
+validate_dir = "data/validate"
+test_dir = "data/test"
 
+train_data, train_labels = preprocess_data(train_dir)
+validate_data, validate_labels = preprocess_data(validate_dir)
+test_data, test_labels = preprocess_data(test_dir)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    print('Preprocessing complete.')
