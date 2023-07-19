@@ -2,7 +2,7 @@ import os
 from PIL import Image, ImageEnhance
 
 # Path to the directory with the images
-train_path = "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/data/train"
+train_path = "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA/photos"
 
 # New size of images
 image_size = (64, 64)

@@ -17,16 +17,24 @@ def preprocess_data(directory):
             for image_name in os.listdir(class_folder_path):
                 image_path = os.path.join(class_folder_path, image_name)
 
-                # Load the image and convert to array
-                image = load_img(image_path, color_mode='grayscale')
-                image = img_to_array(image)
+                # Ensure the file is an image
+                if not image_name.endswith(('.png', '.jpg', '.jpeg')):
+                    continue
 
-                # Normalize the image
-                image = image / 255.0
+                try:
+                    # Load the image and convert to array
+                    print(f"Loading image at path: {image_path}")
+                    image = load_img(image_path, color_mode='grayscale')
+                    image = img_to_array(image)
 
-                # Add the image and label to their respective lists
-                data.append(image)
-                labels.append(class_folder)
+                    # Normalize the image
+                    image = image / 255.0
+
+                    # Add the image and label to their respective lists
+                    data.append(image)
+                    labels.append(class_folder)
+                except Exception as e:
+                    print(f"Error loading image: {image_path}. Error: {str(e)}")
 
     # Convert data and labels to numpy arrays
     data = np.array(data, dtype="float32")
