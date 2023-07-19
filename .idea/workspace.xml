@@ -5,47 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33523c6-b68f-47ad-88b0-085b9dc0ae80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/00.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/0000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/ee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/a.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/photos/e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVG_DATA/svgtopngwithbackground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.tf/fingerprint.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.tf/keras_metadata.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.tf/saved_model.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.tf/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/cnn_model/model.tf/variables/variables.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CMC-7-trained-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CMC-7-trained-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVG_DATA/Images to test/77.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/Images to test/1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SVG_DATA/fix.py" beforeDir="false" afterPath="$PROJECT_DIR$/SVG_DATA/fix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_preprocessing/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing/preprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model_evaluation/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_training/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model_training/evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model_evaluation/evaluate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/SVG_DATA/photos/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG_DATA/photos/e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/testModel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA",
+    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA/photos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,8 +60,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/SVG_DATA" />
+      <recent name="$PROJECT_DIR$/SVG_DATA/photos" />
       <recent name="$PROJECT_DIR$/SVG_DATA/Images to test" />
+      <recent name="$PROJECT_DIR$/SVG_DATA" />
       <recent name="$PROJECT_DIR$/data/validate" />
       <recent name="$PROJECT_DIR$/data/test" />
     </key>
@@ -126,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689633329559</updated>
       <workItem from="1689633330662" duration="644000" />
-      <workItem from="1689723361627" duration="4978000" />
+      <workItem from="1689723361627" duration="11026000" />
     </task>
     <servers />
   </component>

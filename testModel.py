@@ -6,7 +6,7 @@ from PIL import Image
 model = load_model("models/cnn_model/model.tf")
 
 # Open the image file
-img = Image.open('/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA/Images to test/0000.png').convert('L')  # add convert('L') to make sure it's grayscale
+img = Image.open('/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/SVG_DATA/Images to test/77.png').convert('L')  # add convert('L') to make sure it's grayscale
 
 # Preprocess the image (resize, normalize, etc.)
 img = img.resize((64, 64))  # resize to 64x64
