@@ -2,7 +2,21 @@
 /data copy/
 data/test/
 data/train/
-data/validate/
+data/validate/class_0/
+data/validate/class_1/
+data/validate/class_2/
+data/validate/class_3/
+data/validate/class_4/
+data/validate/class_5/
+data/validate/class_6/
+data/validate/class_7/
+data/validate/class_8/
+data/validate/class_9/
+data/validate/class_a/
+data/validate/class_b/
+data/validate/class_c/
+data/validate/class_d/
+data/validate/class_e/
 annotations
 contours.png
 thresholded.png
