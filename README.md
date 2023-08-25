@@ -123,4 +123,4 @@ Enhance model recognition for custom bank-specific CMC-7 characters by following
    python data_augmentor.py
    ```
 
-Feel free to explore and customize the project to meet your specific needs and further enhance character recognition accuracy.
+**Note:** Feel free to explore and customize the project to meet your specific needs and further enhance character recognition accuracy.
