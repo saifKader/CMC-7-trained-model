@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33523c6-b68f-47ad-88b0-085b9dc0ae80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/real0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_augmentor.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_augmentor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model",
+    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,11 +48,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/models/cnn_model/model.tf/assets" />
       <recent name="$PROJECT_DIR$/SVG_DATA/Images_to_test" />
       <recent name="$PROJECT_DIR$/data/validate/class_c" />
-      <recent name="$PROJECT_DIR$/data/test/class_c" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -120,7 +124,7 @@
       <workItem from="1691546358705" duration="632000" />
       <workItem from="1692236650949" duration="1428000" />
       <workItem from="1692631952429" duration="8000" />
-      <workItem from="1692899443072" duration="15275000" />
+      <workItem from="1692899443072" duration="17932000" />
     </task>
     <servers />
   </component>

@@ -7,10 +7,12 @@ import numpy as np
 
 
 class GaussianBlur(Operations.Operation):
+    # Here you can initiate the class.
     def __init__(self, probability, max_sigma):
         Operations.Operation.__init__(self, probability)
         self.max_sigma = max_sigma
 
+    # Your class should always implement this method.
     def perform_operation(self, images):
         for i, image in enumerate(images):
             # Convert the PIL image to a numpy array
@@ -28,8 +30,9 @@ class GaussianBlur(Operations.Operation):
         return images
 
 
-# Define your pipeline
-p = Augmentor.Pipeline("path to your images")
+p = Augmentor.Pipeline("path to your images folder")  # add each image you want to augment (1 by 1)
+
+# Add operations to the pipeline
 
 # Small rotations are a common realistic scenario
 p.rotate(probability=0.3, max_left_rotation=5, max_right_rotation=5)
