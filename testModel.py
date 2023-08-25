@@ -54,8 +54,8 @@ def main():
             print(4, 3)
             kernel_size = (4, 3)
         elif avg_width > 25 or avg_height > 25:
-            print(3, 2)
-            kernel_size = (3, 2)
+            print(3, 3)
+            kernel_size = (3, 3)
         elif avg_width > 15 or avg_height > 15:
             print(3, 4)
             kernel_size = (3, 4)
