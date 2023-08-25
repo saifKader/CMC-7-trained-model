@@ -1,8 +1,11 @@
 /SVG_DATA/
 /data copy/
-data/
+data/test/
+data/train/
+data/validate/
 annotations
 contours.png
 thresholded.png
 data copy
 micr_bounding_box.py
+models
