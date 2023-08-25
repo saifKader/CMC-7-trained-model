@@ -9,8 +9,6 @@
 - [Run Project](#run-project)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Training](#model-training)
-- [Model Evaluation](#model-evaluation)
-- [OCR System](#ocr-system)
 - [Testing](#testing)
 - [Data Augmentation](#data-augmentation)
 
@@ -49,7 +47,7 @@ The project is organized into several directories:
 
 - `data`: Contains training, validation, and test data in specific class folders.
 - `models`: Contains the trained CNN model and its architecture definition.
-- `src`: Contains modules for data preprocessing, model training, model evaluation, and the OCR system.
+- `src`: Contains modules for data preprocessing, model training.
 - `main.py`: The entry point for preprocessing, training, and saving the model.
 - `testModel.py`: Used to test the trained model's recognition performance.
 - `data_augmentor.py`: A script for augmenting custom bank-specific CMC-7 characters to enhance model recognition.
@@ -105,9 +103,6 @@ The `preprocess.py` module under `src/data_preprocessing` prepares the data by l
 
 The `train.py` module under `src/model_training` defines a Convolutional Neural Network (CNN) architecture and trains it on the preprocessed data. The trained model is saved for future use.
 
-## OCR System
-
-The `ocr.py` module under `src/ocr_system` combines the trained model with additional image processing techniques to perform optical character recognition on full check images.
 
 ## Testing
 
