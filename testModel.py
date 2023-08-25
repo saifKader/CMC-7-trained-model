@@ -3,6 +3,12 @@ from keras.models import load_model
 import numpy as np
 from PIL import Image
 
+class_map = {
+    0: '0', 1: '1', 2: '2', 3: '3', 4: '4',
+    5: '5', 6: '6', 7: '7', 8: '8', 9: '9',
+    10: 'a', 11: 'b', 12: 'c', 13: 'd'
+}
+
 # Load the trained model
 model = load_model("models/cnn_model/model.tf")
 
@@ -68,8 +74,10 @@ if contours:
         cv2.imwrite("contours.png", contour_img)
 
         # Predict the character
-        probs = model.predict(char_image)
+        probs = model.predict(char_image, verbose=0)
         prediction = np.argmax(probs)
-        print(f"The predicted class for character {count} is: {prediction}")
+        predicted_char = class_map.get(prediction, '')
+
+        print(f"The predicted class for character {count} is: {predicted_char}")
 else:
     print("No contours detected.")
