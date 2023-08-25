@@ -9,7 +9,6 @@
 - [Run Project](#run-project)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Training](#model-training)
-- [Testing](#testing)
 - [Data Augmentation](#data-augmentation)
 
 
@@ -103,12 +102,6 @@ The `preprocess.py` module under `src/data_preprocessing` prepares the data by l
 
 The `train.py` module under `src/model_training` defines a Convolutional Neural Network (CNN) architecture and trains it on the preprocessed data. The trained model is saved for future use.
 
-
-## Testing
-
-Use the `testModel.py` script to test the trained model's recognition on sample images. You can adjust the input image path as needed.
-
-Certainly, here's the improved version of the "Data Augmentation" section:
 
 ## Data Augmentation
 

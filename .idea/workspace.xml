@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33523c6-b68f-47ad-88b0-085b9dc0ae80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/contoured_check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/real0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ocr_system/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ocr_system/ocr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/testModel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +120,7 @@
       <workItem from="1691546358705" duration="632000" />
       <workItem from="1692236650949" duration="1428000" />
       <workItem from="1692631952429" duration="8000" />
-      <workItem from="1692899443072" duration="25973000" />
+      <workItem from="1692899443072" duration="26298000" />
     </task>
     <servers />
   </component>
