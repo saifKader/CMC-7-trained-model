@@ -24,8 +24,9 @@ def preprocess_data(directory):
                 try:
                     # Load the image and convert to array
                     print(f"Loading image at path: {image_path}")
-                    image = load_img(image_path, color_mode='grayscale')
+                    image = load_img(image_path, color_mode='grayscale', target_size=(64,64))
                     image = img_to_array(image)
+                    image = image.reshape((64, 64, 1))
 
                     # Normalize the image
                     image = image / 255.0
@@ -37,7 +38,7 @@ def preprocess_data(directory):
                     print(f"Error loading image: {image_path}. Error: {str(e)}")
 
     # Convert data and labels to numpy arrays
-    data = np.array(data, dtype="float32")
+    data = np.array(data, dtype="float32").reshape((-1, 64, 64, 1))
     labels = np.array(labels)
 
     # Encode the labels

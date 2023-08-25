@@ -1,3 +1,9 @@
-/data/
 /SVG_DATA/
 /data copy/
+data/
+models/cnn_model
+annotations
+contours.png
+thresholded.png
+data copy
+micr_bounding_box.py

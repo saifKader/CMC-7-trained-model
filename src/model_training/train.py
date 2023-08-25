@@ -3,6 +3,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.callbacks import EarlyStopping
 
 def create_model(input_shape, num_classes):
     model = Sequential([
@@ -21,18 +22,21 @@ def create_model(input_shape, num_classes):
     ])
 
     model.compile(loss=tf.keras.losses.categorical_crossentropy,
-                  optimizer=Adam(),
+                  optimizer=tf.keras.optimizers.legacy.Adam(), # Using legacy optimizer
                   metrics=['accuracy'])
 
     return model
 
-
 def train_model(model, train_data, train_labels, validation_data, validation_labels, epochs, model_path):
     checkpoint = ModelCheckpoint(model_path, monitor='val_accuracy', verbose=1, save_best_only=True, mode='max')
-    callbacks_list = [checkpoint]
+
+    # Implement early stopping
+    early_stopping = EarlyStopping(monitor='val_loss', patience=10, verbose=1, mode='min')
+
+    callbacks_list = [checkpoint, early_stopping]
 
     model.fit(train_data, train_labels,
-              batch_size=128,
+              batch_size=250,
               epochs=epochs,
               verbose=1,
               validation_data=(validation_data, validation_labels),

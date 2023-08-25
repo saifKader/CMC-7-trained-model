@@ -11,7 +11,7 @@ test_data, test_labels = preprocess_data(test_dir)
 
 input_shape = train_data.shape[1:]  # assuming all images have the same shape
 num_classes = train_labels.shape[1]  # number of classes is number of unique labels
-epochs = 50  # define how many epochs to train for
+epochs = 200  # define how many epochs to train for
 model_path = "models/cnn_model/model.tf"  # where to save the model
 
 if __name__ == '__main__':
