@@ -12,8 +12,6 @@
 - [OCR System](#ocr-system)
 - [Testing](#testing)
 - [Run Project](#run-project)
-- [Custom Bank Characters](#custom-bank-characters)
-- [Contributing](#contributing)
 
 ## Overview
 
