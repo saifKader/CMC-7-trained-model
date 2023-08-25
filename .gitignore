@@ -1,7 +1,7 @@
 /SVG_DATA/
 /data copy/
 data/
-models/cnn_model
+models
 annotations
 contours.png
 thresholded.png
