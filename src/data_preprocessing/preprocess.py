@@ -1,8 +1,8 @@
 import os
 import numpy as np
+from keras.src.utils import load_img, img_to_array, to_categorical
 from sklearn.preprocessing import LabelEncoder
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+
 
 
 def preprocess_data(directory):

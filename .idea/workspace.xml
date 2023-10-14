@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d33523c6-b68f-47ad-88b0-085b9dc0ae80" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROI_cmc7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimages/blackhat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimages/cmc7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimages/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimages/resized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testimages/square_close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_preprocessing/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_preprocessing/preprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/testModel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/abdelkaderseifeddine/Documents/GitHub/CMC-7-trained-model&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/models/cnn_model/model.tf/assets" />
       <recent name="$PROJECT_DIR$/SVG_DATA/Images_to_test" />
       <recent name="$PROJECT_DIR$/data/validate/class_c" />
@@ -85,6 +100,9 @@
       <module name="CMC-7-trained-model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="SDK_NAME" value="Python 3.11 (CMC-7-trained-model)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -120,7 +138,14 @@
       <workItem from="1691546358705" duration="632000" />
       <workItem from="1692236650949" duration="1428000" />
       <workItem from="1692631952429" duration="8000" />
-      <workItem from="1692899443072" duration="26298000" />
+      <workItem from="1692899443072" duration="27336000" />
+      <workItem from="1693029813105" duration="2000" />
+      <workItem from="1693184764323" duration="7000" />
+      <workItem from="1696518177002" duration="1923000" />
+      <workItem from="1696684051088" duration="11510000" />
+      <workItem from="1696795203645" duration="10287000" />
+      <workItem from="1697290032733" duration="4796000" />
+      <workItem from="1697298238386" duration="300000" />
     </task>
     <servers />
   </component>

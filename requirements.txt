@@ -6,3 +6,6 @@ scikit-learn
 Augmentor
 keras
 Augmentor
+opencv-contrib-python
+imutils
+pytesseract
