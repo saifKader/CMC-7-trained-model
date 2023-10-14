@@ -18,7 +18,6 @@ data/validate/class_c/
 data/validate/class_d/
 data/validate/class_e/
 annotations
-contours.png
 thresholded.png
 data copy
 micr_bounding_box.py
