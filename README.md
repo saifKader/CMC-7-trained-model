@@ -74,13 +74,13 @@ To run the project and test the trained model's recognition on your own images, 
 
 2. **Open `testModel.py`:** Navigate to the project directory and open the `testModel.py` script in your preferred text editor.
 
-3. **Specify Your Test Image:** In the `testModel.py` script, find the following line:
+3. **Specify Your Test Image:** In the `testModel.py` script, find the following line(a test image is provided you can try it):
 
    ```python
-   image = cv2.imread("testImage.png")
+   img_path = "test.jpg"
    ```
 
-   Replace `"testImage.png"` with the path to your own test image.
+   Replace `"test.jpg"` with the path to your own test image.
 
 4. **Run the Script:** Open your terminal or command prompt and execute the following command to run the script:
 
