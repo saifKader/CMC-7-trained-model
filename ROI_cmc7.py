@@ -10,7 +10,6 @@ import os
 
 
 def cmc7_crop(img_path):
-    # Create the "testimages" folder if it doesn't exist
     output_folder = "testimages"
     os.makedirs(output_folder, exist_ok=True)
 
